@@ -5,8 +5,9 @@ cc_library_headers {
     header_libs: [
         "libboost_iterator",
         "libboost_move",
+        "libboost_range",
     ],
     shared_libs: [
-        "libboost_math",
+        "libboost_container",
     ],
 }
